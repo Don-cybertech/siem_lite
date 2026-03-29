@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'><title>SIEM Report</title>
+<style>
+  body{font-family:monospace;background:#0d1117;color:#c9d1d9;padding:2rem}
+  h1{color:#58a6ff}
+  table{width:100%;border-collapse:collapse}
+  th{background:#161b22;color:#58a6ff;padding:.6rem;text-align:left}
+  td{padding:.4rem;border-bottom:1px solid #21262d;font-size:.85em}
+  tr:hover{background:#161b22}
+</style></head>
+<body><h1>🛡 SIEM Alert Report — 2026-03-29 16:04</h1>
+<p>Total Alerts: 6</p>
+<table><thead><tr><th>Time</th><th>Severity</th><th>Rule</th><th>Source</th><th>Detail</th></tr></thead>
+<tbody><tr><td>2026-03-29T16:04:48</td><td style='color:#e67e22;font-weight:bold'>MEDIUM</td><td>PRIVILEGED_ACCOUNT_ATTACK</td><td>192.168.1.105</td><td>Targeting privileged account 'root'</td></tr>
+<tr><td>2026-03-29T16:04:48</td><td style='color:#e74c3c;font-weight:bold'>HIGH</td><td>CREDENTIAL_SPRAY</td><td>192.168.1.105</td><td>Spraying 5 distinct accounts from 192.168.1.105</td></tr>
+<tr><td>2026-03-29T16:04:48</td><td style='color:#e74c3c;font-weight:bold'>HIGH</td><td>SSH_BRUTE_FORCE</td><td>192.168.1.105</td><td>10 failed logins/min targeting 'root'</td></tr>
+<tr><td>2026-03-29T16:04:48</td><td style='color:#e67e22;font-weight:bold'>MEDIUM</td><td>POSSIBLE_ACCOUNT_SHARING</td><td>don</td><td>Login from 203.0.113.99, previously from 10.0.0.5</td></tr>
+<tr><td>2026-03-29T16:04:48</td><td style='color:#e74c3c;font-weight:bold'>HIGH</td><td>DANGEROUS_SUDO</td><td>deploy</td><td>sudo '/bin/bash'</td></tr>
+<tr><td>2026-03-29T16:04:48</td><td style='color:#e74c3c;font-weight:bold'>HIGH</td><td>USER_MANAGEMENT</td><td>system</td><td>useradd executed on 'hacker''</td></tr>
+</tbody></table></body></html>

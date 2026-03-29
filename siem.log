@@ -1,0 +1,40 @@
+2026-03-28 20:54:21,712 [INFO] Stopped.
+2026-03-29 12:27:12,099 [INFO] Parsing sample_auth.log ...
+2026-03-29 12:27:12,404 [INFO] Done � 6 alerts
+2026-03-29 12:30:03,373 [INFO] Parsing sample_auth.log ...
+2026-03-29 12:30:03,440 [INFO] Done � 6 alerts
+2026-03-29 12:34:02,834 [INFO] Parsing sample_auth.log ...
+2026-03-29 12:34:02,914 [INFO] Done � 6 alerts
+2026-03-29 12:40:31,310 [INFO] Parsing sample_auth.log ...
+2026-03-29 12:40:31,310 [WARNING] ⚠ [MEDIUM] PRIVILEGED_ACCOUNT_ATTACK | 192.168.1.105 | Targeting privileged account 'root'
+2026-03-29 12:40:31,311 [WARNING] 🚨 [HIGH] CREDENTIAL_SPRAY | 192.168.1.105 | Spraying 5 distinct accounts from 192.168.1.105
+2026-03-29 12:40:31,311 [WARNING] 🚨 [HIGH] SSH_BRUTE_FORCE | 192.168.1.105 | 10 failed logins/min targeting 'root'
+2026-03-29 12:40:31,312 [WARNING] ⚠ [MEDIUM] POSSIBLE_ACCOUNT_SHARING | don | Login from 203.0.113.99, previously from 10.0.0.5
+2026-03-29 12:40:31,313 [WARNING] 🚨 [HIGH] DANGEROUS_SUDO | deploy | sudo '/bin/bash'
+2026-03-29 12:40:31,313 [WARNING] 🚨 [HIGH] USER_MANAGEMENT | system | useradd executed on 'hacker''
+2026-03-29 12:40:31,313 [INFO] Done — 6 alerts
+2026-03-29 12:41:15,919 [INFO] Parsing sample_auth.log ...
+2026-03-29 12:41:15,920 [WARNING] ⚠ [MEDIUM] PRIVILEGED_ACCOUNT_ATTACK | 192.168.1.105 | Targeting privileged account 'root'
+2026-03-29 12:41:15,920 [WARNING] 🚨 [HIGH] CREDENTIAL_SPRAY | 192.168.1.105 | Spraying 5 distinct accounts from 192.168.1.105
+2026-03-29 12:41:15,921 [WARNING] 🚨 [HIGH] SSH_BRUTE_FORCE | 192.168.1.105 | 10 failed logins/min targeting 'root'
+2026-03-29 12:41:15,921 [WARNING] ⚠ [MEDIUM] POSSIBLE_ACCOUNT_SHARING | don | Login from 203.0.113.99, previously from 10.0.0.5
+2026-03-29 12:41:15,921 [WARNING] 🚨 [HIGH] DANGEROUS_SUDO | deploy | sudo '/bin/bash'
+2026-03-29 12:41:15,922 [WARNING] 🚨 [HIGH] USER_MANAGEMENT | system | useradd executed on 'hacker''
+2026-03-29 12:41:15,922 [INFO] Done — 6 alerts
+2026-03-29 15:54:17,169 [INFO] Parsing sample_auth.log ...
+2026-03-29 15:54:17,230 [WARNING] ⚠ [MEDIUM] PRIVILEGED_ACCOUNT_ATTACK | 192.168.1.105 | Targeting privileged account 'root'
+2026-03-29 15:54:17,245 [WARNING] 🚨 [HIGH] CREDENTIAL_SPRAY | 192.168.1.105 | Spraying 5 distinct accounts from 192.168.1.105
+2026-03-29 15:54:17,247 [WARNING] 🚨 [HIGH] SSH_BRUTE_FORCE | 192.168.1.105 | 10 failed logins/min targeting 'root'
+2026-03-29 15:54:17,248 [WARNING] ⚠ [MEDIUM] POSSIBLE_ACCOUNT_SHARING | don | Login from 203.0.113.99, previously from 10.0.0.5
+2026-03-29 15:54:17,249 [WARNING] 🚨 [HIGH] DANGEROUS_SUDO | deploy | sudo '/bin/bash'
+2026-03-29 15:54:17,250 [WARNING] 🚨 [HIGH] USER_MANAGEMENT | system | useradd executed on 'hacker''
+2026-03-29 15:54:17,251 [INFO] Done — 6 alerts
+2026-03-29 16:04:48,674 [INFO] Parsing sample_auth.log ...
+2026-03-29 16:04:48,674 [WARNING] ⚠ [MEDIUM] PRIVILEGED_ACCOUNT_ATTACK | 192.168.1.105 | Targeting privileged account 'root'
+2026-03-29 16:04:48,675 [WARNING] 🚨 [HIGH] CREDENTIAL_SPRAY | 192.168.1.105 | Spraying 5 distinct accounts from 192.168.1.105
+2026-03-29 16:04:48,676 [WARNING] 🚨 [HIGH] SSH_BRUTE_FORCE | 192.168.1.105 | 10 failed logins/min targeting 'root'
+2026-03-29 16:04:48,677 [WARNING] ⚠ [MEDIUM] POSSIBLE_ACCOUNT_SHARING | don | Login from 203.0.113.99, previously from 10.0.0.5
+2026-03-29 16:04:48,678 [WARNING] 🚨 [HIGH] DANGEROUS_SUDO | deploy | sudo '/bin/bash'
+2026-03-29 16:04:48,679 [WARNING] 🚨 [HIGH] USER_MANAGEMENT | system | useradd executed on 'hacker''
+2026-03-29 16:04:48,679 [INFO] Done — 6 alerts
+2026-03-29 16:04:48,681 [INFO] Report saved → report.html
