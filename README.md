@@ -9,6 +9,12 @@
 
 ---
 
+## Screenshot
+
+![SIEM Lite HTML Report](report_screenshot.png)
+
+---
+
 ## 📌 Table of Contents
 
 - [Overview](#overview)
@@ -138,8 +144,8 @@ No third-party packages are required. SIEM Lite runs on the **Python standard li
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Don-cybertech/SIEM-Lite.git
-cd SIEM-Lite
+git clone https://github.com/Don-cybertech/04_siem_lite.git
+cd 04_siem_lite
 
 # 2. Confirm Python version (3.8+ required)
 python3 --version
@@ -200,13 +206,13 @@ python3 siem_lite.py --watch /var/log/auth.log \
 ## Sample Output
 
 ```
-2025-04-12 10:31:00,000 [INFO] 👁 Watching 2 log file(s) — Ctrl+C to stop
+2025-04-12 10:31:00,000 [INFO] Watching 2 log file(s) — Ctrl+C to stop
 
-2025-04-12 10:32:14,201 [WARNING] ⚠ [MEDIUM] PRIVILEGED_ACCOUNT_ATTACK | 192.168.1.105 | Targeting privileged account 'root'
-2025-04-12 10:32:16,450 [WARNING] 🚨 [HIGH] SSH_BRUTE_FORCE | 192.168.1.105 | 10 failed logins/min targeting 'root'
-2025-04-12 10:32:16,451 [WARNING] 🚨 [HIGH] CREDENTIAL_SPRAY | 192.168.1.105 | Spraying 5 distinct accounts from 192.168.1.105
-2025-04-12 10:45:03,112 [WARNING] 🚨 [HIGH] SQL_INJECTION_ATTEMPT | 10.0.0.22 | SQLi in: /login?id=1' OR 1=1--
-2025-04-12 10:50:20,309 [WARNING] 🚨 [HIGH] DANGEROUS_SUDO | deploy | sudo '/bin/bash'
+2025-04-12 10:32:14,201 [WARNING] [MEDIUM] PRIVILEGED_ACCOUNT_ATTACK | 192.168.1.105 | Targeting privileged account 'root'
+2025-04-12 10:32:16,450 [WARNING] [HIGH] SSH_BRUTE_FORCE | 192.168.1.105 | 10 failed logins/min targeting 'root'
+2025-04-12 10:32:16,451 [WARNING] [HIGH] CREDENTIAL_SPRAY | 192.168.1.105 | Spraying 5 distinct accounts from 192.168.1.105
+2025-04-12 10:45:03,112 [WARNING] [HIGH] SQL_INJECTION_ATTEMPT | 10.0.0.22 | SQLi in: /login?id=1' OR 1=1--
+2025-04-12 10:50:20,309 [WARNING] [HIGH] DANGEROUS_SUDO | deploy | sudo '/bin/bash'
 
 2025-04-12 11:00:00,000 [INFO] Stopped.
 2025-04-12 11:00:00,100 [INFO] Report saved → incident.html
@@ -216,10 +222,10 @@ Alert severity icons:
 
 | Icon | Severity |
 |---|---|
-| `ℹ` | LOW |
-| `⚠` | MEDIUM |
-| `🚨` | HIGH |
-| `💀` | CRITICAL |
+| `i` | LOW |
+| `!` | MEDIUM |
+| `!!` | HIGH |
+| `!!!` | CRITICAL |
 
 ---
 
@@ -237,10 +243,12 @@ When `--report` is specified, SIEM Lite generates a dark-themed HTML incident re
 ## Project Structure
 
 ```
-SIEM-Lite/
-├── siem_lite.py       # Entire SIEM engine (single file)
-├── siem.log           # Runtime log output (auto-created)
-├── report.html        # HTML incident report (generated on demand)
+04_siem_lite/
+├── siem_lite.py           # Entire SIEM engine (single file)
+├── sample_auth.log        # Sample log file for testing
+├── report_screenshot.png  # Screenshot of the HTML report
+├── siem.log               # Runtime log output (auto-created)
+├── report.html            # HTML incident report (generated on demand)
 └── README.md
 ```
 
