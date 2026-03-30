@@ -280,8 +280,15 @@ When `--report` is specified, SIEM Lite generates a dark-themed HTML incident re
 
 ## Author
 
-**Egwu Donatus Achema** — Cybersecurity Student | Python Developer
+**Egwu Donatus Achema** 
+
+Cybersecurity Analyst | Python Developer
+
 - GitHub: [@Don-cybertech](https://github.com/Don-cybertech)
+
+-LinkedIn: (https://www.linkedin.com/in/egwu-donatus-achema-8a9251378/)
+
+-part of cybersecurity portfolio:
 
 > *"Security is not a product, but a process." — Bruce Schneier*
 
