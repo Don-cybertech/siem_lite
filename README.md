@@ -287,7 +287,6 @@ Cybersecurity Analyst | Python Developer
 - GitHub: [@Don-cybertech](https://github.com/Don-cybertech)
 
 - LinkedIn: (https://www.linkedin.com/in/egwu-donatus-achema-8a9251378/)
-cybersecurity Analyst | Python Developer
 
 - Gmail: (donatusachema@gmail.com)
 
