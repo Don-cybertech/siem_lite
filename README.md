@@ -286,9 +286,12 @@ Cybersecurity Analyst | Python Developer
 
 - GitHub: [@Don-cybertech](https://github.com/Don-cybertech)
 
--LinkedIn: (https://www.linkedin.com/in/egwu-donatus-achema-8a9251378/)
+- LinkedIn: (https://www.linkedin.com/in/egwu-donatus-achema-8a9251378/)
+cybersecurity Analyst | Python Developer
 
--part of cybersecurity portfolio:
+- Gmail: (donatusachema@gmail.com)
+
+- part of cybersecurity portfolio:
 
 > *"Security is not a product, but a process." — Bruce Schneier*
 
